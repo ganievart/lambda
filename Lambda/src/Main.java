@@ -12,7 +12,12 @@ public class Main {
         list.add(new Lamp());
         list.add(new Radio());
 
+        list.add(
+                () -> System.out.println("Пожар")
+        );
+
         Switcher.switchOn(list);
+
 
     }
 }
