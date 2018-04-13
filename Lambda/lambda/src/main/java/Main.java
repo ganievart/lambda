@@ -19,5 +19,8 @@ public class Main {
         Switcher.switchOn(list);
 
 
+
+
+
     }
 }
